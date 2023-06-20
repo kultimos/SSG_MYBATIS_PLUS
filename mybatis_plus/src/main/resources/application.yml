@@ -18,3 +18,7 @@ mybatis-plus:
   configuration:
     #配置日志
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#全局配置数据库表名前缀
+  global-config:
+    db-config:
+      table-prefix: t_

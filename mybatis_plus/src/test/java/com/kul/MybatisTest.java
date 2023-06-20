@@ -24,7 +24,7 @@ public class MybatisTest {
     //INSERT INTO user ( id, name, age, email ) VALUES ( ?, ?, ?, ? )
     @Test
     public void testInsert() {
-        userMapper.insert(User.builder().name("jordan").age(45).email("bulls").build());
+        userMapper.insert(User.builder().name("REW").age(45).email("bulls").build());
     }
 
     //DELETE FROM user WHERE id=?
