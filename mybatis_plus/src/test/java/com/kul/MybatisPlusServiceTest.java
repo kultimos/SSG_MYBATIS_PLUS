@@ -40,4 +40,9 @@ public class MybatisPlusServiceTest {
         userService.saveBatch(userList);
     }
 
+    @Test
+    public void testDelete(){
+        userService.removeById(1);
+    }
+
 }

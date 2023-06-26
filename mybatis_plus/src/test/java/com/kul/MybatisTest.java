@@ -30,8 +30,7 @@ public class MybatisTest {
     //DELETE FROM user WHERE id=?
     @Test
     public void testDelete() {
-        userMapper.deleteById(1L);
-        userMapper.deleteById(User.builder().id(2L).build());
+        userMapper.deleteById(1);
     }
 
     //DELETE FROM user WHERE id IN ( ? , ? )
