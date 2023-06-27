@@ -1,6 +1,7 @@
 package com.kul.pojo;
 
 import com.baomidou.mybatisplus.annotation.*;
+import com.kul.enums.SexEnum;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -30,4 +31,6 @@ public class User {
     @TableLogic //用来声明逻辑删除字段,添加该注解后,删除该条数据时,不会真正的删除,而是将is_deleted字段的值改为1
     //并且被逻辑删除的数据是无法被查询到的
     private String isDeleted;
+
+    private SexEnum sex;
 }
