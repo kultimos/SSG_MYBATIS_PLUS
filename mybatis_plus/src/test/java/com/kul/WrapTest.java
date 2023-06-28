@@ -18,6 +18,9 @@ public class WrapTest {
     @Resource
     private UserMapper userMapper;
 
+    @Resource
+    private UserService userService;
+
     @Test
     //SELECT tid AS id,user_name AS name,age,email,is_deleted FROM user WHERE is_deleted='0' AND (user_name = ? AND age BETWEEN ? AND ? AND email IS NOT NULL)
     public void test01() {

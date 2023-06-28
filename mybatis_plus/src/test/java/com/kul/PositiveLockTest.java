@@ -1,6 +1,5 @@
 package com.kul;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.kul.mapper.ProductMapper;
 import com.kul.pojo.Product;
